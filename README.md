@@ -9,7 +9,9 @@ Representations of Diversity in Collections
   * readable by all
   * searchable by all
   * writeable by partners
-* user accounts
+* collections / user accounts
+  * add to / remove from collection manually
+  * batch upload collection for comparison
   * search for books and save them to your own "collection"
   * possibly support multiple collections per users
 * analysis tools
