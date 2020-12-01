@@ -14,10 +14,22 @@ Representations of Diversity in Collections
   * batch upload collection for comparison
   * search for books and save them to your own "collection"
   * possibly support multiple collections per users
+* connections with authorities
+  * oclc / worldcat
+  * goodreads
+  * library thing
 * analysis tools
   * per collection, report stats
 * admin tools
   * review API key requests
 
 ## Proposed API endpoints
-* ???
+* GET /books - list all/some books
+* GET /book  - provide an individual book's details
+* PUT /book  - update book details
+* POST /book - create new book
+* DELETE /book - delete a book (admin only?) 
+* POST /collection/add - add a book to a collection
+* DELETE /collection/item - remove an item from collection
+
+
